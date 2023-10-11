@@ -32,3 +32,38 @@ iframe {
       width: 75%;
     }
 }
+
+h1{
+    color:gold;
+    user-select: none;
+    text-shadow: white 0.1em 0.1em 0.1em;
+    text-shadow: 0 0 0.2em #ffffffcc, 0 0 0.2em #ffffffcc;
+    font-size: 50px;
+}
+
+h2 {
+    color:gold;
+    user-select: none;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center a {
+    margin-right: 25px;
+    text-decoration: none;
+        
+    transition: box-shadow 0.3s; 
+
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.center a:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: 'Aclonica';
+}
