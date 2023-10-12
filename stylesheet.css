@@ -4,7 +4,7 @@ body {
 
 @keyframes logo-animation {
     0% {
-        width: 960px; 
+        width: 100%; 
     }
     100% {
         width: 100px
@@ -24,7 +24,7 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10%;
+    padding-top: 50px;
 }
 
 @media (max-width: 600px) {
