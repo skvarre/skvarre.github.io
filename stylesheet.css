@@ -68,6 +68,11 @@ h2 {
     text-decoration: none;
 }
 
+.center a:last-child {
+    /* Remove the margin for the last link */
+    margin-right: 0;
+}
+
 /* Strictly speaking, changing opacity is changing colors :) */
 .center a:hover {
     opacity:0.5; 
