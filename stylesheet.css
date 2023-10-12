@@ -7,7 +7,7 @@ body {
         width: 960px; 
     }
     100% {
-        width: 100px
+        width: 150px
     }
 }
 
@@ -15,7 +15,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 150px;
     animation-name: logo-animation;
     animation-duration: 2s;
     user-select: none;
@@ -31,7 +31,7 @@ iframe {
 @media (max-width: 600px) {
     iframe {
       width: 75%;
-      height: 100%
+      height: 225px;
     }
 
     @keyframes logo-animation {
