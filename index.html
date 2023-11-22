@@ -11,26 +11,33 @@
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
 </head>
 <body>
+    <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="/assets/littleloser.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     
-    <img id="logo" src="/assets/logo.jpg"/>
-    <iframe width="700" height="393.75" src="https://www.youtube.com/embed/DcPQddXIwiM?rel=0&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <div class="center">
-        <h1>WHINING ROSIE</h1>
-        <h2>The worst band south of south Stockholm</h2>
+        <img id="logo" src="/assets/logo.jpg"/>
+        <iframe width="700" height="393.75" src="https://www.youtube.com/embed/DcPQddXIwiM?rel=0&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="center">
+            <h1>WHINING ROSIE</h1>
+            <h2>The worst band south of south Stockholm</h2>
+        </div>
+        <div class="center">
+            <a href="https://www.instagram.com/Whiningrosie/" target="_blank">
+                <img src="/assets/icons8-instagram-50.png" alt="instagram-logo">
+            </a>
+            <a href="https://www.facebook.com/whiningrosie/" target="_blank">
+                <img src="/assets/icons8-facebook-50.png" alt="facebook-logo">
+            </a>
+            <a href="https://open.spotify.com/artist/2XtYLEedbmpjLrSPJNK4fd?si=3TxV_snWSVeDSaTaoMTZNw" target="_blank">
+                <img src="/assets/icons8-spotify-50.png" alt="spotify-logo">
+            </a>
+            <a href="https://www.youtube.com/@whiningrosie" target="_blank">
+                <img src="/assets/icons8-youtube-50.png" alt="youtube-logo">
+            </a>
+        </div>
     </div>
-    <div class="center">
-        <a href="https://www.instagram.com/Whiningrosie/" target="_blank">
-            <img src="/assets/icons8-instagram-50.png" alt="instagram-logo">
-        </a>
-        <a href="https://www.facebook.com/whiningrosie/" target="_blank">
-            <img src="/assets/icons8-facebook-50.png" alt="facebook-logo">
-        </a>
-        <a href="https://open.spotify.com/artist/2XtYLEedbmpjLrSPJNK4fd?si=3TxV_snWSVeDSaTaoMTZNw" target="_blank">
-            <img src="/assets/icons8-spotify-50.png" alt="spotify-logo">
-        </a>
-        <a href="https://www.youtube.com/@whiningrosie" target="_blank">
-            <img src="/assets/icons8-youtube-50.png" alt="youtube-logo">
-        </a>
-    </div>
+    <script src="videohandler.js"></script>
 </body>
 </html>
