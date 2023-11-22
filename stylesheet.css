@@ -42,32 +42,6 @@ h2 {
     user-select: none;
 }
 
-
-@media (max-width: 600px) {
-    iframe {
-      width: 75%;
-      height: 225px;
-    }
-
-    @keyframes logo-animation {
-        0% {
-            width: 100%; 
-        }
-        100% {
-            width: 150px;
-        }
-    }
-
-    h1 {
-        font-size: 35px;
-    }
-
-    h2 {
-        font-size: 17px;
-    }
-}
-
-
 .center {
     margin: 0 auto;
     text-align: center;
@@ -136,4 +110,32 @@ body, html {
 
 .video-container.scrolled .content {
     top: 50%;
+}
+
+@media (max-width: 600px) {
+    iframe {
+      width: 75%;
+      height: 225px;
+    }
+
+    @keyframes logo-animation {
+        0% {
+            width: 100%; 
+        }
+        100% {
+            width: 150px;
+        }
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    .center.links {
+        padding-top: 60%;
+    }
 }
