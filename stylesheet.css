@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Aclonica';
 }
 
 @keyframes logo-animation {
@@ -17,7 +18,7 @@ body {
     margin-right: auto;
     width: 150px;
     animation-name: logo-animation;
-    animation-duration: 2s;
+    animation-duration: 3s;
     user-select: none;
 }
 
@@ -49,18 +50,25 @@ h1{
     user-select: none;
     text-shadow: white 0.1em 0.1em 0.1em;
     text-shadow: 0 0 0.2em #ffffffcc, 0 0 0.2em #ffffffcc;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 h2 {
     color:gold;
     user-select: none;
-    padding-bottom: 200px;
 }
 
 .center {
     margin: 0 auto;
     text-align: center;
+}
+
+.center.title {
+    padding-top: 20vh;
+}
+
+.center.links {
+    padding-top: 35vh;
 }
 
 .center a {
@@ -77,10 +85,6 @@ h2 {
 .center a:hover {
     opacity:0.5; 
     transition: 0.3s
-}
-
-body {
-    font-family: 'Aclonica';
 }
 
 body, html {
