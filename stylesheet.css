@@ -134,13 +134,9 @@ body, html {
     h2 {
         font-size: 17px;
     }
-
-    .center.links {
-        padding-top: 60%;
-    }
 }
 
-@media (min-height: 1440px) {
+@media (max-height: 800px) {
     .center.links {
         padding-top: 20vh;
     }
