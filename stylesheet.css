@@ -139,3 +139,9 @@ body, html {
         padding-top: 60%;
     }
 }
+
+@media (min-height: 1440) {
+    .center.links {
+        padding-top: 20vh;
+    }
+}
